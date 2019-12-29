@@ -9,4 +9,4 @@ COPY . /usr/src/app
 
 RUN pipenv install --system --deploy --ignore-pipfile
 
-CMD ['python', 'masque', '--dev']
+CMD ['python', 'masque']

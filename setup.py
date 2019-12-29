@@ -25,7 +25,7 @@ setup(
     include_package_data=True,
     keywords='',
     name='masque',
-    packages=find_packages(include=['masque']),
+    packages=find_packages(include=['masque', 'masque.model']),
     setup_requires=setup_requirements,
     url='',
     version='0.1.0',
