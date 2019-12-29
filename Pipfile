@@ -9,6 +9,7 @@ verify_ssl = true
 tinify = "*"
 sqlalchemy = "*"
 mysql-connector-python = "*"
+joblib = "*"
 
 [requires]
 python_version = "3.8"
